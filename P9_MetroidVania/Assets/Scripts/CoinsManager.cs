@@ -11,6 +11,7 @@ public class CoinsManager : MonoBehaviour
     // Hacemos referencia al texto numerico de la UI
     public Text puntos;
     public int puntuacion = 0;
+    public string level;
 
     public void AllCoinsCollected()
     {
@@ -41,6 +42,10 @@ public class CoinsManager : MonoBehaviour
 
     void ChangeScene()
     {
+        /*
+        // Insercion de puntos al XML
+        ItemContainer.Save("items.xml", level, puntuacion.ToString());
+        */
         // Vamos al menu principal
         SceneManager.LoadScene(0);
         // Cargamos la escena actual

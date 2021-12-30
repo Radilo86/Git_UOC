@@ -4877,6 +4877,7 @@ MonoBehaviour:
   transition: {fileID: 94497059}
   puntos: {fileID: 1882772986}
   puntuacion: 0
+  level: level1
 --- !u!1001 &1438049752
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ItemCollection>
+  <Items>
+    <Item name="level">
+      <Score>250</Score>
+    </Item>
+    <Item name="level1">
+      <Score>500</Score>
+    </Item>
+    <Item name="level2">
+      <Score>0</Score>
+    </Item>
+  </Items>
+</ItemCollection>

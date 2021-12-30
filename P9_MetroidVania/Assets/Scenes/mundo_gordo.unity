@@ -3298,6 +3298,7 @@ MonoBehaviour:
   transition: {fileID: 0}
   puntos: {fileID: 128440104}
   puntuacion: 0
+  level: level2
 --- !u!4 &868208023 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7650604184967863760, guid: 7ab969563217626479f463310a752fb8, type: 3}

@@ -86,7 +86,8 @@ public class PlayerScriptMobile : MonoBehaviour
 
     private void Jump()
     {
-        gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpSpeed), ForceMode2D.Impulse);      
+        // gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpSpeed), ForceMode2D.Impulse);
+        rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
     }
 
     void TouchMove()
@@ -96,11 +97,11 @@ public class PlayerScriptMobile : MonoBehaviour
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             if(mousePos.x > 1)
             {
-                Debug.Log("ATTACK");
+                //Debug.Log("ATTACK");
             }
             if(mousePos.x < -1)
             {
-                Debug.Log("NOTHING");
+               // Debug.Log("NOTHING");
             }
         }
     }
